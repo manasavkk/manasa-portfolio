@@ -1,0 +1,30 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Claude Code session data
+.claude/
+
+# Working folders not meant for production
+scraps/
+uploads/
+frames/
+Untitled
+
+# Old/removed files
+REMOVEDsidequests.html
+
+# Design files
+*.napkin
+*.sketch
+*.fig
+
+# Editor
+.vscode/
+.idea/
+
+# Misc
+*.log
+Thumbs.db

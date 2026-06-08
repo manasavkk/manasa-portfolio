@@ -1,0 +1,143 @@
+:root {
+    --ink:    #18120e;
+    --ink-2:  #4a4540;
+    --ink-3:  #8a8480;
+    --paper:  #fafaf8;
+    --line:   #e0ddd8;
+    --accent: #c13230;
+    --forest: #8ab9a9;
+    --font-display: "Playfair Display", Georgia, serif;
+    --font:         "Lora", Georgia, serif;
+    --font-mono:    "DM Mono", monospace;
+    --ease: cubic-bezier(.4,0,.2,1);
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    height: 100%;
+  }
+
+  body {
+    font-family: var(--font);
+    background: var(--paper);
+    color: var(--ink);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    padding: 40px 24px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0;
+    max-width: 600px;
+    width: 100%;
+    animation: arrive .6s var(--ease) both;
+  }
+  @keyframes arrive {
+    from { opacity: 0; transform: translateY(18px); }
+    to   { opacity: 1; transform: none; }
+  }
+
+  /* ── The big number ── */
+  .code {
+    font-size: clamp(100px, 22vw, 220px);
+    line-height: 1;
+    letter-spacing: -.04em;
+    font-weight: 900;
+    color: var(--ink);
+    display: flex;
+    align-items: baseline;
+    gap: .02em;
+    user-select: none;
+  }
+
+  /* Hindi ४ uses Noto Serif Devanagari */
+  .code .deva {
+    font-family: "Noto Serif Devanagari", serif;
+    font-weight: 900;
+    color: var(--accent);
+    /* Devanagari sits higher — nudge down slightly */
+    position: relative;
+    top: .04em;
+  }
+
+  /* Latin 0 — italic for contrast */
+  .code .zero {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-weight: 900;
+  }
+
+  /* ── Divider ── */
+  .orn {
+    margin: 20px 0 24px;
+    color: var(--forest);
+    font-size: 20px;
+    letter-spacing: .4em;
+    opacity: .7;
+  }
+
+  /* ── Copy ── */
+  h1 {
+    font-family: var(--font-display);
+    font-size: clamp(22px, 3vw, 32px);
+    font-weight: 700;
+    letter-spacing: -.02em;
+    line-height: 1.2;
+  }
+  h1 em { font-style: italic; font-weight: 400; }
+
+  p {
+    margin-top: 14px;
+    color: var(--ink-2);
+    font-size: 16px;
+    line-height: 1.7;
+    max-width: 40ch;
+  }
+
+  /* ── Back link ── */
+  .back {
+    margin-top: 36px;
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    font-family: var(--font);
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--ink);
+    text-decoration: none;
+    padding: 11px 22px 11px 18px;
+    border: 1.5px solid var(--line);
+    border-radius: 999px;
+    background: #fff;
+    transition: background .2s var(--ease), color .2s var(--ease), border-color .2s var(--ease), gap .2s var(--ease);
+  }
+  .back:hover {
+    background: var(--ink);
+    color: var(--paper);
+    border-color: var(--ink);
+    gap: 13px;
+  }
+  .back svg { width: 15px; height: 15px; flex-shrink: 0; }
+
+  /* ── Corner label ── */
+  .corner {
+    position: fixed;
+    bottom: 24px; right: 28px;
+    font: 500 11px/1 var(--font-mono);
+    letter-spacing: .16em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    opacity: .6;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .page { animation: none; }
+    .back { transition: none; }
+  }
