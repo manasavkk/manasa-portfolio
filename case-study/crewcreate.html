@@ -60,12 +60,12 @@
     <h1 class="cs-title" id="csTitle">🏆 First Place — TechTurnUp × UXTerps × Hack4Impact</h1>
     <div class="cs-company" id="csCompany">University of Maryland</div>
     <div class="cs-outcome" id="csOutcome">
-      <b>TL;DR:</b> In 72 hours conducted 20+ stakeholder interviews, ran a DVF analysis, built a design system, prototyped CrewCreate — a safe gamified coding platform for kids in underserved areas — and won first place. Currently under client review for implementation.
+      <b>TL;DR:</b> Discovered and introduced TechTurnUp to Hack4Impact; Designed a product for them for the makeathon in 72 hours, conducted 20+ stakeholder interviews, ran a DVF analysis, built a design system, and prototyped CrewCreate — a safe gamified coding platform for kids in underserved areas — and won first place among 13 finalist teams. Currently under client review for implementation.
     </div>
     <dl class="cs-meta-strip" id="csMeta">
-      <div class="meta-item"><dt>My role</dt><dd id="metaRole">Lead Designer &amp; Researcher</dd></div>
+      <div class="meta-item"><dt>My role</dt><dd id="metaRole">Designer</dd></div>
       <div class="meta-item"><dt>Timeline</dt><dd id="metaTimeline">72 hours · March 2026</dd></div>
-      <div class="meta-item"><dt>Team</dt><dd id="metaTeam">Cross-functional hackathon team</dd></div>
+      <div class="meta-item"><dt>Team</dt><dd id="metaTeam">Manasa Vinod Kumar · Regan McAleavy · Khondaker Mushfiqur Rahman (Nony)</dd></div>
       <div class="meta-item"><dt>Platform</dt><dd id="metaPlatform">Figma · Prototype</dd></div>
     </dl>
   </header>
@@ -82,8 +82,12 @@
     <section class="cs-section" aria-labelledby="s1">
       <h2 id="s1" data-n="01">The problem</h2>
       <div class="body-text">
-        <p>Kids in underserved communities have drastically less access to quality computer science education than their peers — not because the interest isn't there, but because <b>the tools that exist weren't built for them</b>. Existing coding platforms are either too complex for beginners, gamified in ways that don't resonate with older kids, or lack safety features that matter to parents and community organizations.</p>
-        <p>The hackathon brief came from a real community client: an organization working with youth in underserved DMV-area neighborhoods who needed a solution that was engaging enough to retain attention, <b>safe enough for parents to trust</b>, and scaffolded well enough that kids without prior exposure could actually make progress. We had 72 hours to go from brief to working prototype.</p>
+        <p>TechTurnUp, a nonprofit based in the DMV that runs after school, summer, and online STEAM programming for students, shared a few  goals in the problem brief. 
+          <li>They wanted a online platform that was an extension of their in person programming that encouraged students to continue learning outside of class but did not overlap with existing online programming. 
+            <li>They shared that online safety had been an issue in the past (For example, a student once drew lewd images on the shared presentation in a very important meeting) and emphasised that safety would be integral to their platform. 
+              <li>Tim, the founder of TechTurnUp,  shared in our interview that he had ambitions for the platform to be an "entrypoint" for people to join the TechTurnUp community as they expanded operations all the world. 
+          <br>For these goals, existing platforms like Scratch are too rigid, don't support original creation, and lack the safety infrastructure parents and facilitators actually need.
+          We had 72 hours to go from brief to working prototype. We needed something engaging enough to retain attention, safe enough for parents to trust, and scaffolded well enough for kids with no prior exposure.</p>
       </div>
       <!-- <div class="img-block" style="margin-top:24px; aspect-ratio:16/7;">problem space — existing platform gap analysis placeholder</div>
       <p class="img-caption">Presentation covering the problem statement, user personas, IA, DVF analysis, demo, future implementation roadmap and more.</p> -->
@@ -116,8 +120,7 @@
     <section class="cs-section" aria-labelledby="s2">
       <h2 id="s2" data-n="02">My role</h2>
       <div class="body-text">
-        <p>I led design and research for the team. <b>I owned the stakeholder interview process</b>, facilitated the DVF analysis session that shaped our solution direction, built the design system in Figma, and designed the core prototype flows. On a cross-functional hackathon team, roles blur — I also contributed to the pitch narrative and helped structure the product's safety and moderation framework.</p>
-        <p>The team's engineers built a functional code from the prototype spec I produced; the judges explicitly cited the design quality and research grounding as differentiating factors in the first-place decision.</p>
+        <p>I led design and strategy for the team. I proposed the space adventure rebrand that unified the visual identity, introduced the AI chatbot support feature and the gaming-lobby-style crew chat with moving characters. I designed the Missions page end-to-end and led the information architecture, accessibility considerations, challenges and trade-offs, MVP scoping, and the future roadmap — including how the product scales technically and geographically. I also discovered TechTurnUp independently and brought them in as the Hack4Impact client for this makeathon.</p>
       </div>
       <div class="chip-row">
         <span class="chip">Figma</span>
@@ -125,6 +128,9 @@
         <span class="chip">User Research</span>
         <span class="chip">Design Systems</span>
         <span class="chip">Zero-to-One</span>
+        <span class="chip">Information Architecture</span>
+        <span class="chip">AI Feature Design</span>
+        <span class="chip">Accessibility</span>
       </div>
     </section>
 
@@ -132,42 +138,46 @@
     <section class="cs-section" aria-labelledby="s3">
       <h2 id="s3" data-n="03">How I worked through it</h2>
       <div class="body-text">
-        <p>72 hours forces extreme prioritization. I ran the research and design phases in parallel with the team's engineering work — no sequential handoffs, just constant alignment.</p>
+        <p>72 hours forces extreme prioritization. My team and I ran the unser interviews on day 1, and continued research and design phases in parallel.</p>
       </div>
       <div class="process-steps">
         <div class="ps-item">
           <div class="ps-num">1</div>
           <div class="ps-content">
-            <h3>Stakeholder interviews — hours 0–8</h3>
-            <p>I conducted 20+ interviews across three groups: community organization staff who would deploy the platform, parents of kids in the target age range, and kids themselves (via proxy questions to parents and org staff). The key insight from the first hour: parents' #1 concern wasn't engagement — it was safety and moderation. That reframed the entire product.</p>
-          </div>
-        </div>
-        <div class="ps-item">
-          <div class="ps-num">2</div>
-          <div class="ps-content">
-            <h3>DVF analysis &amp; solution direction — hours 8–12</h3>
-            <p>I facilitated a structured DVF session with the team, mapping each solution concept against desirability (do users want it?), viability (can the client sustain it?), and feasibility (can we build it in 72 hours with a plausible path to production?). CrewCreate emerged as the strongest candidate — a gamified, crew-based coding environment where progress was social and moderated.</p>
+            <h3>User interviews &amp; personas</h3>
+            <p>My team and I conducted interviews with TTU staff and students, synthesizing findings into three personas: Jacob (student, 15, wants to build his own game), Patricia (facilitator, stretched thin managing large cohorts), and Gabriela (parent, worried about safety and lack of visibility).</p>
           </div>
         </div>
         <div class="ps-item">
           <div class="ps-num">3</div>
           <div class="ps-content">
-            <h3>Design system &amp; information architecture — hours 12–20</h3>
-            <p>I built a lightweight design system in Figma: type scale, color tokens, component set (buttons, cards, badges, crew widgets). Working from a system rather than designing screens ad hoc meant I could produce prototype-quality screens much faster in the later sprint and keep visual consistency across every frame.</p>
+            <h3>Information architecture, solution pillars &amp; product vision</h3>
+            <p>My team and I mapped the full IA across six primary sections with sub-flows for each user type. 
+              We aligned on the three solution pillars: safety (AI content filtering, MFA with personalized security questions, facilitator supervision), engagement (Crews, Rewards, Gallery, participation nudges), and scalability (feature, geographic, and field-based expansion with a freemium model). 
+              We introduced the AI chatbot (Support Center) keeps students from leaving the platform for YouTube or Reddit, removing a key safety risk. 
+              We fleshed out features and gathered visual assets to support the designing process. My team and I - with experiences spanning education, design and engineering - aligned on the goal of the platform to be a space for students to develop product management skills early. </p>
           </div>
         </div>
         <div class="ps-item">
-          <div class="ps-num">4</div>
+          <div class="ps-num">2</div>
           <div class="ps-content">
-            <h3>Core prototype flows — hours 20–56</h3>
-            <p>I designed five key flows: onboarding, the crew formation and joining experience, a coding challenge module with scaffolded hints, the progress and badge system, and the moderation dashboard for org admins. Each flow was prototyped with realistic interactions in Figma so judges and stakeholders could experience it, not just look at static screens.</p>
+            <h3>Prototyping and Space theme</h3>
+            <p>We started with the lo-fi prototyping, following which I proposed the space adventure theme — Launchpads, Missions, Crews, Flights — as the conceptual frame. The theme aligned with TTU's brand colors (purple and green) and gave the product a distinct identity in the hi-fi prototypes.</p>
           </div>
         </div>
         <div class="ps-item">
           <div class="ps-num">5</div>
           <div class="ps-content">
-            <h3>Pitch preparation &amp; demo — hours 56–72</h3>
-            <p>I structured the pitch narrative around the research — leading with a specific quote from a parent interview, walking through the DVF rationale, then demonstrating the prototype. The judges noted that the research grounding made the solution feel credible rather than speculative. We won first place and the client requested the prototype for implementation review.</p>
+            <h3>Missions page design</h3>
+            <p>I owned the Missions page end-to-end: Kanban board for task tracking, project setup with individual milestones, progress reports, role assignments, mentor feedback, and the Support Center.</p>
+            <p>I also designed the Crew chat to feel like a gaming lobby with moving character avatars and a Campfire interface to make collaboration feel native to the experience.</p>
+          </div>
+        </div>
+        <div class="ps-item">
+          <div class="ps-num">6</div>
+          <div class="ps-content">
+            <h3>Presentation - MVP scoping, accessibility &amp; roadmap</h3>
+            <p>I presented the DVF analysis — desirability anchored in game design principles and student agency, viability through vertical integration with TTU's merch store Innovators' Threads, and feasibility by scoping out complex backend dependencies. I covered WCAG AA accessibility standards, challenges around age-range scaling and depth vs. breadth, and the future roadmap: starting in DMV, expanding to new regions and fields like Robotics and Music. I also covered the IA and Design process.</p>
           </div>
         </div>
       </div>
@@ -187,20 +197,21 @@
     <section class="cs-section" aria-labelledby="s4">
       <h2 id="s4" data-n="04">What it achieved</h2>
       <div class="body-text">
-        <p>In 72 hours the team went from zero to a research-grounded, fully interactive prototype — and won the competition. The work didn't end with the hackathon.</p>
+        <p>In 72 hours the team went from zero to a research-grounded, fully interactive prototype and won the competition.</p>
       </div>
       <ul class="outcome-list">
         <li>
           <div class="stat">🥇 1st</div>
-          <div class="desc">First place at TechTurnUp × UXTerps × Hack4Impact hackathon, judged on research depth, solution quality, and prototype fidelity.</div>
+          <div class="desc">First place at TechTurnUp × UXTerps × Hack4Impact hackathon among 13 finalist teams, judged on research depth, solution quality, and prototype fidelity. We were told later by the founder that we won becuase the students themselves specifically mentioned that that they loved our solution.</div>
         </li>
         <li>
-          <div class="stat">20+</div>
-          <div class="desc">Stakeholder interviews conducted in the first 8 hours — org staff, parents, and youth proxies — forming the research foundation for the solution.</div>
+          <div class="stat">3</div>
+          <div class="desc">User personas developed across students, facilitators, and parents, driving three distinct solution pillars for safety, engagement, and facilitator bandwidth.
+          </div>
         </li>
         <li>
           <span class="bullet"></span>
-          <div class="desc">CrewCreate prototype currently under client review for implementation — the client organization is evaluating it as a real product to deploy in their programs.</div>
+          <div class="desc">CrewCreate prototype currently under client review for implementation in their programs.</div>
         </li>
       </ul>
     </section>
@@ -209,13 +220,13 @@
     <section class="cs-section" aria-labelledby="s5">
       <h2 id="s5" data-n="05">What I learned</h2>
       <div class="body-text">
-        <p>A 72-hour sprint is a forcing function for everything product and design work should always do but rarely does: talk to users first, decide fast, and commit fully to one direction.</p>
+        <p>A 72-hour sprint is a forcing function for everything product and design: talk to users first, decide fast, and commit fully to one direction.</p>
       </div>
       <div class="learning-grid">
-        <div class="lg-item"><h3>What worked</h3><p>Building the design system before designing screens. It felt like it was "wasting" the first 8 hours of design time, but it made everything faster and more consistent from hour 20 onward. Under time pressure, a system pays back faster than it costs.</p></div>
-        <div class="lg-item"><h3>What I'd change</h3><p>I would have defined the moderation flow earlier — it was the most technically complex part of the product and we scoped it late. The judges noticed it was less developed than the other flows. In a real sprint I'd identify the hardest flow on day one and prototype it first.</p></div>
-        <div class="lg-item"><h3>Unexpected challenge</h3><p>Keeping the team aligned on direction during the middle hours. Everyone had opinions about features after the DVF session, and scope creep started setting in around hour 30. A clear "this is our MVP, everything else is future state" decision — made explicitly — would have reduced the friction.</p></div>
-        <div class="lg-item"><h3>Skill gained</h3><p>Facilitating a DVF analysis under time pressure with a cross-functional team — getting engineers, designers, and a researcher to reach a shared prioritization decision in under two hours. That facilitation skill transfers directly to product planning in any context.</p></div>
+        <div class="lg-item"><h3>What worked</h3><p>Proposing the space theme after the lo-fi prototypes locked in a coherent design language before any screens were finalised. Every subsequent decision (colors, copy, IA naming) had a clear reference point.</p></div>
+        <div class="lg-item"><h3>What I'd change</h3><p>The Missions page has a complex flow and I discovered some flows late into the design process. Our team worked asynchronously and independently for our individual page designs, but in the future I'd work collaboratively and prototype the hardest flow first so there's time to iterate and receive feedback real-time.</p></div>
+        <div class="lg-item"><h3>Unexpected challenge</h3><p>Our presentation was pretty long, and we ended up not being able to present the last 3 slides in time. In the future, I will optimize for tighter piches with lesser words.</p></div>
+        <div class="lg-item"><h3>Skill gained</h3><p>Completing the entire design process in 72 hrs; Pitching technical future roadmaps to a non-technical audience — explaining how AI content filtering, geographic rollout, and freemium business models connect to real user outcomes, not just engineering tasks.</p></div>
       </div>
     </section>
 
