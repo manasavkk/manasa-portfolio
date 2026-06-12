@@ -18,7 +18,7 @@
       role: "Undergraduate AI Research Assistant",
       company: "CLIP Lab, UMIACS — University of Maryland",
       dates: "Feb 2025 – Jan 2026",
-      outcome: "Researched safety alignment in large language models at by tracing model internals with mechanistic interpretability, and refactoring a causal tracing framework. Co-authored a paper proposing <b>jailbreak testing as a practical AI safety benchmark</b>.",
+      outcome: "Built a mechanistic interpretability framework to trace how gender bias emerges and is suppressed inside transformer networks — using causal tracing, activation patching, and vocabulary projection on LLaMA-2-7B — and co-authored a paper proposing it as a generalizable analysis framework for AI safety research.",
       thumb: "images/work/clip-lab/cover.jpg",
       chips: ["Mechanistic Interpretability", "Causal Tracing", "AI Safety", "Jailbreak Testing"],
       link: "case-study/clip-lab.html"
@@ -27,7 +27,7 @@
       role: "Market Risk IT Intern",
       company: "Nomura Securities International",
       dates: "June – Aug 2025",
-      outcome: "Shipped a proof-of-concept What-If tool pipeline improvement by integrating third-party Python APIs into a Java OLAP system in 10 weeks. <b>Wrote the technical spec, built the Java Spring solution, and XXX</b>.",
+      outcome: "Shipped a proof-of-concept What-If tool pipeline improvement by integrating Python APIs into a Java OLAP system — wrote the spec and built the solution in 10 weeks.",
       thumb: "images/work/nomura/cover.jpg",
       chips: ["Java Spring", "Python APIs", "Technical Spec", "OLAP Systems", "Cross-functional Delivery"],
       link: "case-study/nomura.html"
@@ -36,7 +36,7 @@
       role: "Sourcing Team",
       company: "Hack4Impact — University of Maryland",
       dates: "Sep 2025 – Present",
-      outcome: "Cold-outreached ~50 DMV-area nonprofits, ran founder discovery calls to surface operational pain points and translated organizational needs into PRDs <b>complete with user personas and prioritized MVP requirements, for Hack4Impact's leadership board.",
+      outcome: "Cold-outreached ~50 DMV-area nonprofits and translated their operational pain points into PRDs complete with user personas and prioritized MVP requirements.",
       thumb: "images/work/hack4impact/cover.jpg",
       chips: ["Customer Discovery", "Cold Outreach", "PRD Writing", "User Personas", "Problem Framing"],
       link: "case-study/hack4impact.html"
@@ -45,7 +45,7 @@
       role:    "🏆  First Place — TechTurnUp × UXTerps × Hack4Impact",
       company: "University of Maryland",
       dates:   "March 2026",
-      outcome: "In 72 hours conducted 20+ stakeholder interviews across 4 user segments. <br>Performed a DVF analysis, built a design system, created a full prototype, and delivered a pitch for CrewCreate, a safe gamified coding platform for kids in underserved areas. <b>Won First place, Currently under client review for implementation.</b>",
+      outcome: "Discovered and introduced TechTurnUp to Hack4Impact; designed a product for them in 72 hours, conducted 20+ stakeholder interviews, ran a DVF analysis, built a design system, and prototyped CrewCreate — a safe gamified coding platform for kids in underserved areas — and won first place among 13 finalist teams. Potentially under client review for implementation.",
       chips:["Figma", "DVF Framework", "User Research", "Design Systems", "Zero-to-One"],
       thumb: "images/work/crewcreate/cover.jpg",
       link: "case-study/crewcreate.html"

@@ -1,6 +1,10 @@
 /* ============================================================
    SHARED NAV + MOBILE HAMBURGER
    ============================================================ */
+
+/* <site-nav> Web Component wrapper — transparent to layout */
+site-nav { display: contents; }
+
 :root {
   --nav-h: 68px;
 }

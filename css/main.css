@@ -246,7 +246,7 @@ img { max-width: 100%; display: block; }
 
 /* Envelope finale */
 .work-finale {
-  position: relative; margin-top: 104px; min-height: 300px;
+  position: relative; margin-top: 104px;
   display: flex; flex-direction: column; align-items: center; gap: 26px; text-align: center;
 }
 .finale-lead {
