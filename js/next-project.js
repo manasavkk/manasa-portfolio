@@ -11,10 +11,10 @@
     { link:"tutoring.html",    role:"CS / Math Tutoring",                  company:"University of Maryland" },
   ];
 
-  var current = location.pathname.split("/").pop();
+  var current = location.pathname.split("/").pop().replace(/\.html$/, "");
   var idx = -1;
   for (var i = 0; i < CYCLE.length; i++) {
-    if (CYCLE[i].link === current) { idx = i; break; }
+    if (CYCLE[i].link.replace(/\.html$/, "") === current) { idx = i; break; }
   }
   if (idx === -1) return;
 
