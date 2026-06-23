@@ -30,7 +30,7 @@ class SiteNav extends HTMLElement {
       </ul>
     </nav>
     <div class="nav-right">
-      <a class="btn-resume" id="resumeBtn" href="${root}Manasa_PM_Resume.pdf" target="_blank" rel="noopener noreferrer" aria-label="Open résumé (PDF)">Résumé</a>
+      <a class="btn-resume" id="resumeBtn" href="https://drive.google.com/drive/folders/1mylCbrCRjBNfSqNaPxVHpnh18OmOGMnx?usp=sharing" target="_blank" rel="noopener noreferrer" aria-label="Open résumé (Google Drive)">Résumé</a>
       <a class="icon-btn" href="https://www.linkedin.com/in/manasavk" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
         <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5.001A2.5 2.5 0 014.98 3.5zM3 9h4v12H3V9zm6 0h3.8v1.7h.05c.53-1 1.82-2.05 3.75-2.05C20.4 8.65 22 10.6 22 14.1V21h-4v-6.1c0-1.45-.03-3.3-2-3.3-2 0-2.3 1.56-2.3 3.2V21H9V9z"/></svg>
       </a>
