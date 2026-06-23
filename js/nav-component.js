@@ -34,7 +34,7 @@ class SiteNav extends HTMLElement {
       <a class="icon-btn" href="https://www.linkedin.com/in/manasavk" aria-label="LinkedIn profile" target="_blank" rel="noopener noreferrer">
         <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M4.98 3.5a2.5 2.5 0 11-.02 5.001A2.5 2.5 0 014.98 3.5zM3 9h4v12H3V9zm6 0h3.8v1.7h.05c.53-1 1.82-2.05 3.75-2.05C20.4 8.65 22 10.6 22 14.1V21h-4v-6.1c0-1.45-.03-3.3-2-3.3-2 0-2.3 1.56-2.3 3.2V21H9V9z"/></svg>
       </a>
-      <a class="icon-btn" href="https://www.github.com/manasalearnscoding" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">
+      <a class="icon-btn" href="https://www.github.com/manasavkk" aria-label="GitHub profile" target="_blank" rel="noopener noreferrer">
         <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M12 1.8a10.2 10.2 0 00-3.22 19.88c.5.1.69-.22.69-.48v-1.7c-2.83.62-3.43-1.36-3.43-1.36-.46-1.18-1.13-1.5-1.13-1.5-.93-.63.07-.62.07-.62 1.02.07 1.56 1.05 1.56 1.05.91 1.56 2.39 1.11 2.97.85.09-.66.36-1.11.64-1.36-2.26-.26-4.64-1.13-4.64-5.03 0-1.11.4-2.02 1.05-2.73-.11-.26-.46-1.3.1-2.7 0 0 .85-.27 2.8 1.04a9.7 9.7 0 015.1 0c1.95-1.31 2.8-1.04 2.8-1.04.56 1.4.21 2.44.1 2.7.65.71 1.05 1.62 1.05 2.73 0 3.91-2.38 4.77-4.65 5.02.37.32.69.94.69 1.9v2.82c0 .27.18.59.7.48A10.2 10.2 0 0012 1.8z"/></svg>
       </a>
       <a class="icon-btn" href="https://x.com/manasavkk" aria-label="X (Twitter) profile" target="_blank" rel="noopener noreferrer">
